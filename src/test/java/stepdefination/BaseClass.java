@@ -13,7 +13,7 @@ public class BaseClass {
 	driver = new ChromeDriver();
 	
 	}
-	 public void exitBrowser()
+	 public void quitBrowser()
 	 {
 		 driver.close();
 	 }
